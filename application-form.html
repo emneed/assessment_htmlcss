@@ -7,5 +7,33 @@
 
 <!-- your html goes here -->
 
+    <form action="/application-success" method="POST">
+        <p>
+            <label for="first_name">First Name: </label>
+            <input id="first_name" type="text" name="fname">
+        </p>
+
+        <p>
+            <label for="last_name">Last Name: </label>
+            <input id="last_name" type="text" name="lname">
+        </p>
+
+        <p>
+            <label for="salary">Salary Requirement: </label>
+            <input id="salary" type="text" name="salary">
+        </p>
+
+        <p>
+            <label for="job_title">Applying for: </label>
+            <select id="job_title" name="job">
+                <option value="software_engineer">Software Engineer</option>
+                <option value="qa_engineer">QA Engineer</option>
+                <option value="project_manager">Project Manager</option>
+            </select>
+        </p>
+
+        <p><input type="submit" name="submit" value="Submit"></p>
+    </form>
+
 </body>
 </html>
